@@ -1,8 +1,8 @@
-# ChildContactNameUpdate
-Consider you are updating account name so whenever acc name gets updated its relative child contacts name should get updated
-Well in such a case i would use the helper class for the taskto perform : 
+//ChildContactNameUpdate
+//Consider you are updating account name so whenever acc name gets updated its relative child contacts name should get updated
+//Well in such a case i would use the helper class for the taskto perform : 
 
-i will create a ContactNameUpdate:
+//i will create a ContactNameUpdate:
 
 trigger ContactNameUpdate on Account (after update)
 {
@@ -13,7 +13,7 @@ trigger ContactNameUpdate on Account (after update)
 }
 
 
-helper class of AccountNameUpdate
+//helper class of AccountNameUpdate
 
 
 public class accountNameUpdate
